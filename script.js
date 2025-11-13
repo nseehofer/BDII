@@ -8,7 +8,6 @@ const json_preguntas = [
       "Son específicas de cada consulta y son ejecutadas automáticamente al realizar la conexión.",
       "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre no puede contener cualquier carácter.",
       "Una variable debe ser declarada al final para usarse en el codigo anterior.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -21,7 +20,6 @@ const json_preguntas = [
       "Existen variables globales en SQL Server.",
       "Una variable declarada existe dentro de todo el entorno de trabajo.",
       "Una variable a la cual no se le ha asignado un valor contiene \"0\" (Cero).",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -34,7 +32,6 @@ const json_preguntas = [
       "Solo se puede declarar varias variables en una misma sentencia.",
       "Existen variables globales en SQL Server.",
       "Una variable declarada existe dentro de todo el entorno de trabajo.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas,",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -48,7 +45,6 @@ const json_preguntas = [
       "Son un método de encapsular tareas repetitivas que no involucran variables definidas por el motor de SQL para cálculos intermedios.",
       "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
       "Son querys y variables que encapsulan código para su reutilización.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -60,7 +56,6 @@ const json_preguntas = [
       "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
       "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
       "No pueden devolver valores en la forma de parámetros de salida.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -73,7 +68,6 @@ const json_preguntas = [
       "No aceptan parámetros de entrada.",
       "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
       "No pueden devolver valores en la forma de parámetros de salida.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -110,7 +104,6 @@ const json_preguntas = [
       "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -122,7 +115,6 @@ const json_preguntas = [
       "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
       "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
       "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -187,7 +179,6 @@ const json_preguntas = [
       "El usuario dbo es una tabla de seguridad de usuario especial que hay en cada base de datos.",
       "Todos los administradores de SQL Server, los miembros del rol fijo de servidor sysdba, el inicio de sesión sa y los propietarios de la base de datos especifican las bases de datos como el usuario dbo.",
       "El usuario dbo tiene todos los permisos en la base de datos master y se limitar o desactivar.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -201,7 +192,6 @@ const json_preguntas = [
       "La base de datos predeterminada de la cuenta sa es msdb.",
       "El inicio de sesión, la cuenta sa es miembro del rol fijo de nivel de servidor sysdba.",
       "Este inicio de sesión, la cuenta sa tiene todos los permisos en el servidor y puede limitarse.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -224,7 +214,6 @@ const json_preguntas = [
       "Grupo de disponibilidad, Punto de conexión, Iniciar sesión, Rol del servidor, Enlace de servicio remoto.",
       "Grupo de disponibilidad, Clave simétrica, Iniciar sesión, Rol del servidor, Base de datos.",
       "Grupo de disponibilidad, Punto de conexión, Certificate, Rol del servidor, (Base de datos) Rol.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -237,7 +226,6 @@ const json_preguntas = [
       "Las claves maestras de base de datos se protegen mediante la clave asimétricas maestra de servicio.",
       "La clave maestra de servicio y todas las claves maestras de base de datos son claves asimétricas.",
       "El módulo de Administración extensible de claves (EKM) mantiene las claves asimétricas o simétricas fuera de SQL Server.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -261,7 +249,6 @@ const json_preguntas = [
       "Responden a la necesidad de garantizar la integridad y disponibilidad de los datos dentro de nuestras tablas de usuario.",
       "No ayudan a mantener las reglas de actualizacion de nuestra base de datos.",
       "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada de acuerdo a los estándares de la instalacion por defecto.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -274,7 +261,6 @@ const json_preguntas = [
       "Es aquella en que se define al final de la transacción para validar la propiedad ACID.",
       "Reciben el nombre de tablas definidas por el usuario.",
       "Deben realizarse un control automatico de ejecucion para cumplir con la propiedad ACID.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -287,7 +273,6 @@ const json_preguntas = [
       "Esta propiedad asegura que una transacción se ejecute de manera completa o no se ejecute en absoluto.",
       "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
       "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
@@ -299,7 +284,6 @@ const json_preguntas = [
       "DECLARE => define el comportamiento de desplazamiento y la consulta utilizada para generar el conjunto de atributos sobre el que opera el cursor.",
       "OPEN => llena el conjunto de atributos que deben ser analizados para el comportamiento de las sentencias.",
       "FETCH => devuelve el valor de un atributo de la tabla del conjunto de resultados.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -323,7 +307,6 @@ const json_preguntas = [
       "Permiten almacenar un valor y recuperarlo en sentencias anteriores a ser declarada para emplearlos en otras sentencias.",
       "Son específicas de cada consulta y son ejecutadas automáticamente al realizar la conexión.",
       "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre no puede contener cualquier carácter.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -347,7 +330,6 @@ const json_preguntas = [
       "No existen variables globales en SQL Server.",
       "Una variable declarada existe dentro del entorno en que se declara.",
       "Una variable a la cual no se le ha asignado un valor contiene \"null\".",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
@@ -359,7 +341,6 @@ const json_preguntas = [
       "Solo se puede declarar varias variables en una misma sentencia.",
       "Existen variables globales en SQL Server.",
       "Una variable declarada existe dentro de todo el entorno de trabajo.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas,",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -372,7 +353,6 @@ const json_preguntas = [
       "Es un grupo de sentencias T-SQL compiladas dentro de un plan de una query.",
       "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
       "Son querys y variables que encapsulan código para su reutilización.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -383,7 +363,6 @@ const json_preguntas = [
     "Enunciado": "2) Procedimientos Almacenados:",
     "Respuestas Incorrectas": [
       "Son querys y variables que encapsulan código para su reutilización.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -406,7 +385,6 @@ const json_preguntas = [
       "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
       "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
       "No pueden devolver valores en la forma de parámetros de salida.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -430,7 +408,6 @@ const json_preguntas = [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
       "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -465,7 +442,6 @@ const json_preguntas = [
       "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
       "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
       "Es similar a una vista ofreciendo mas flexibilidad.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -498,7 +474,6 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Toda entidad de seguridad tiene un identificador de seguridad (PID).",
       "Este tema se aplica a todas las versiones de SQL Server, y no hay algunas restricciones en las entidades de seguridad a nivel de servidor de SQL Database.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -512,7 +487,6 @@ const json_preguntas = [
       "La cuenta sa se crea de forma predeterminada cuando se instala una instancia.",
       "El inicio de sesión sa es miembro del rol fijo de nivel de servidor sysadmin.",
       "Este inicio de sesión, la cuenta sa tiene todos los permisos en el servidor y no puede limitarse.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correcta.",
@@ -524,7 +498,6 @@ const json_preguntas = [
       "El usuario dbo es una tabla de seguridad de usuario especial que hay en cada base de datos.",
       "Todos los administradores de SQL Server, los miembros del rol fijo de servidor sysdba, el inicio de sesión sa y los propietarios de la base de datos especifican las bases de datos como el usuario dbo.",
       "El usuario dbo tiene todos los permisos en la base de datos master y se limitar o desactivar.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -536,7 +509,6 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "El rol fijo de servidor public y el de base de datos public no pueden quitarse, pero se puede revocar los permisos de los roles public.",
       "Hay muchos de los permisos que se asignan a los roles public de forma predeterminada. La mayoría de estos permisos son necesarios para realizar operaciones rutinarias en la base de datos; el tipo de tareas que todos los usuarios deben poder hacer.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correcta.",
@@ -548,7 +520,6 @@ const json_preguntas = [
       "Esquemas XML, Agregada, Función, Ver, Tabla externa.",
       "Procedimiento, Tipo, Cola, Synonym, Usuario.",
       "Procedimiento, Tipo, Cola, Synonym, Tabla.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -561,7 +532,6 @@ const json_preguntas = [
       "Las claves maestras de base de datos se protegen mediante la clave asimétricas maestra de servicio.",
       "La clave maestra de servicio y todas las claves maestras de base de datos son claves asimétricas.",
       "El módulo de Administración extensible de claves (EKM) mantiene las claves asimétricas o simétricas fuera de SQL Server.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -573,7 +543,6 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "No ayudan a mantener las reglas de actualizacion de nuestra base de datos.",
       "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada de acuerdo a los estándares de la instalacion por defecto.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -598,7 +567,6 @@ const json_preguntas = [
       "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
       "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
       "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -611,7 +579,6 @@ const json_preguntas = [
       "Nos permite movernos por los registros de una consulta como un único bloque para analizar el resultado todo junto.",
       "Nos permite recorrer los registros del resultado obtenido de una sentencia WHERE.",
       "Se usa para realizar una acción si el código identificador de un registro no es autonumérico.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -681,7 +648,6 @@ const json_preguntas = [
       "Encapsulan la lógica de negocio y crean piezas de código reutilizable por la aplicación.",
       "incrementa sensiblemente la seguridad.",
       "Puede otorgarse permisos de ejecución a un procedimiento a un usuario aun cuando no tenga permisos sobre las tablas o vistas usadas por el procedimiento.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
@@ -693,7 +659,6 @@ const json_preguntas = [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
       "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Los parámetros de entrada permiten pasar información al SP. Estos valores son usados como variables locales dentro del procedimiento almacenado.",
@@ -705,7 +670,6 @@ const json_preguntas = [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
       "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -728,7 +692,6 @@ const json_preguntas = [
       "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
       "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
       "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -775,7 +738,6 @@ const json_preguntas = [
       "SQL Server usa Windows para autenticar cuentas de usuario de Active Directory para el servidor Windows que no esta en el dominio donde esta instalador el motor de Base de Datos.",
       "SQL Server usa usuarios locales del servidor donde esta instalado el motor de Base de Datos, y conceder acceso a un grupo de Windows otorga acceso por medio de la base de datos master.",
       "SQL Server: SQL Server almacena el nombre de usuario y un hash de la contraseña en la base de datos msdb.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -788,7 +750,6 @@ const json_preguntas = [
       "La cuenta sa se crea de forma predeterminada cuando se instala una base de datos.",
       "La base de datos predeterminada de la cuenta sa es msdb.",
       "Este inicio de sesión, la cuenta sa tiene todos los permisos en el servidor y puede limitarse.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -801,7 +762,6 @@ const json_preguntas = [
       "Cada inicio de sesión pertenece al rol fijo de servidor public y cada usuario de base de datos pertenece al rol de base de datos master.",
       "Cuando a un usuario o inicio de sesión se le han concedido permisos concretos para un elemento protegible, hereda los permisos para ese elemento concedidos a public.",
       "necesarios para realizar operaciones rutinarias en la base de datos; el tipo de tareas que los dba deben poder hacer.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -813,7 +773,6 @@ const json_preguntas = [
       "Grupo de disponibilidad, Punto de conexión, Iniciar sesión, Rol del servidor, Ruta.",
       "Grupo de disponibilidad, Clave simétrica, Iniciar sesión, Rol del servidor, Base de datos.",
       "Grupo de disponibilidad, Punto de conexión, Certificate, Rol del servidor, Base de datos.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -826,7 +785,6 @@ const json_preguntas = [
       "Para obtener el máximo rendimiento, cifre los datos utilizando claves asimétricas en lugar de certificados o claves simétricas.",
       "Las claves maestras de base de datos se protegen mediante la clave asimétricas maestra de servicio.",
       "La clave maestra de servicio y todas las claves maestras de base de datos son claves asimétricas.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -848,7 +806,6 @@ const json_preguntas = [
     "Enunciado": "2) Triggers: INSTEAD OF",
     "Respuestas Incorrectas": [
       "Se disparan en paralelo de la operación que los produce.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -861,7 +818,6 @@ const json_preguntas = [
       "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
       "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
       "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -873,7 +829,6 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
       "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -886,7 +841,6 @@ const json_preguntas = [
       "Nos permite movernos por los registros de una consulta como un único bloque para analizar el resultado todo junto.",
       "Nos permite recorrer los registros del resultado obtenido de una sentencia WHERE.",
       "Se usa para realizar una acción si el código identificador de un registro no es autonumérico.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Su uso permiten procesar el conjunto de resultados de fila en fila.",
@@ -910,7 +864,6 @@ const json_preguntas = [
       "Son específicas de cada consulta y son ejecutadas automáticamente al realizar la conexión.",
       "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre no puede contener cualquier carácter.",
       "Una variable debe ser declarada al final para usarse en el codigo anterior.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -922,7 +875,6 @@ const json_preguntas = [
       "Permiten almacenar un valor y recuperarlo en sentencias anteriores a ser declarada para emplearlos en otras sentencias.",
       "Son específicas de cada consulta y son ejecutadas automáticamente al realizar la conexión.",
       "Una variable debe ser declarada al final para usarse en el codigo anterior.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre puede contener cualquier carácter.",
@@ -934,7 +886,6 @@ const json_preguntas = [
       "Solo se puede declarar varias variables en una misma sentencia.",
       "Existen variables globales en SQL Server.",
       "Una variable declarada existe dentro de todo el entorno de trabajo.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -947,7 +898,6 @@ const json_preguntas = [
       "Solo se puede declarar varias variables en una misma sentencia.",
       "Existen variables globales en SQL Server.",
       "Una variable a la cual no se le ha asignado un valor contiene \"0\" (Cero).",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -961,7 +911,6 @@ const json_preguntas = [
       "Son un método de encapsular tareas repetitivas que no involucran variables definidas por el motor de SQL para cálculos intermedios.",
       "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
       "Son querys y variables que encapsulan código para su reutilización.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -983,7 +932,6 @@ const json_preguntas = [
       "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
       "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
       "No pueden devolver valores en la forma de parámetros de salida.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -1022,7 +970,6 @@ const json_preguntas = [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -1035,7 +982,6 @@ const json_preguntas = [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
       "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -1104,7 +1050,6 @@ const json_preguntas = [
       "SQL Server usa usuarios locales del servidor donde esta instalado el motor de Base de Datos, y conceder acceso a un grupo de Windows otorga acceso a todos los inicios de sesión de usuario de Windows que son miembros del grupo.",
       "SQL Server almacena el nombre de usuario y un hash de la contraseña en la base de datos master.",
       "SQL Server admite usuarios de base de datos independientes para la autenticación de Windows y SQL Server",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correcta.",
@@ -1116,7 +1061,6 @@ const json_preguntas = [
       "La cuenta sa se crea de forma predeterminada cuando se instala una base de datos.",
       "La base de datos predeterminada de la cuenta sa es msdb.",
       "El inicio de sesión, la cuenta sa es miembro del rol fijo de nivel de servidor sysdba.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta."
     ],
     "Respuesta correcta": "El inicio de sesión de SQL Server, la cuenta sa es una entidad de seguridad a nivel de servidor.",
@@ -1129,7 +1073,6 @@ const json_preguntas = [
       "El usuario dbo tiene todos los permisos en la base de datos master y se limitar o desactivar.",
       "La cuenta de usuario dbo es lo mismo que el rol fijo de base de datos db_owner.",
       "El rol fijo de base de datos db_owner es lo mismo que la cuenta de usuario que se registra como el propietario de la base de datos.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -1142,7 +1085,6 @@ const json_preguntas = [
       "Cuando a un usuario o inicio de sesión no se le han concedido ni denegado permisos concretos para un elemento protegible, hereda los permisos para ese elemento concedidos a public.",
       "El rol fijo de servidor public y el de base de datos public no pueden quitarse, pero se puede revocar los permisos de los roles public.",
       "Hay muchos de los permisos que se asignan a los roles public de forma predeterminada. La mayoría de estos permisos son necesarios para realizar operaciones rutinarias en la base de datos; el tipo de tareas que todos los usuarios deben poder hacer.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correcta.",
@@ -1154,7 +1096,6 @@ const json_preguntas = [
       "Las claves maestras de base de datos se protegen mediante la clave asimétricas maestra de servicio.",
       "La clave maestra de servicio y todas las claves maestras de base de datos son claves asimétricas.",
       "El módulo de Administración extensible de claves (EKM) mantiene las claves asimétricas o simétricas fuera de SQL Server.",
-      "Mas de una respuesta de las ANTERIORES es Correcta.",
       "Todas las respuestas ANTERIORES son correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -1179,7 +1120,6 @@ const json_preguntas = [
       "Responden a los eventos que son propios de la base de datos y no a los que están en el alcance de la instancia.",
       "Están muy alineadas con las de los que son a nivel de Instancia e incluso la información.",
       "La Clausula ON ALL SERVER dentro de una instruccion CREATE TRIGGER no afectaria a todo el servidor sino a la Base de Datos especificada.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -1202,7 +1142,6 @@ const json_preguntas = [
       "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
       "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
       "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -1216,7 +1155,6 @@ const json_preguntas = [
       "OPEN => llena el conjunto de resultados.",
       "FETCH => devuelve una fila del conjunto de resultados.",
       "CLOSE => libera el conjunto de resultados actual asociado al cursor.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
