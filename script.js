@@ -261,10 +261,10 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Responden a la necesidad de garantizar la integridad y consistencia de los datos dentro de nuestras tablas de usuario.",
       "No ayudan a mantener las reglas de diseño de nuestra base de datos.",
-      "Touas tastespuestas AIN TERIURES son conectas.",
+      "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
-    "Respuesta correcta": "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada",
+    "Respuesta correcta": "Todas las respuestas ANTERIORES son conectas.",
     "Imagen": ""
   },
   {
