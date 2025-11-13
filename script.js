@@ -196,18 +196,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "1) Jerarquía de cifrado => Conceptos:",
-    "Respuestas Incorrectas": [
-      "Las claves maestras de base de datos se protegen mediante la clave asimétricas maestra de servicio.",
-      "La clave maestra de servicio y todas las claves maestras de base de datos son claves asimétricas.",
-      "El módulo de Administración extensible de claves (EKM) mantiene las claves asimétricas o simétricas fuera de SQL Server.",
-      "Todas las respuestas ANTERIORES son correcta.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "La clave maestra de servicio y todas las claves maestras de base de datos son claves simétricas.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Triggers: Nivel de base de datos",
     "Respuestas Incorrectas": [
       "Responden a la necesidad de garantizar la integridad y consistencia de los datos dentro de nuestras tablas de usuario.",
@@ -525,18 +513,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "1) Características ACID: => Atomicidad (Atomicity)",
-    "Respuestas Incorrectas": [
-      "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
-      "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
-      "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Esta propiedad asegura que una transacción se ejecute de manera completa o no se ejecute en absoluto.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Características de los cursores:",
     "Respuestas Incorrectas": [
       "Nos permite movernos por los registros de una consulta como un único bloque para analizar el resultado todo junto.",
@@ -613,18 +589,6 @@ const json_preguntas = [
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Los parámetros de entrada permiten pasar información al SP. Estos valores son usados como variables locales dentro del procedimiento almacenado.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "2) Procedimientos Almacenados - Parametros:",
-    "Respuestas Incorrectas": [
-      "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
-      "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Los Procedimientos son más flexibles cuando le incluimos parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
     "Imagen": ""
   },
   {
@@ -1025,18 +989,6 @@ const json_preguntas = [
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correcta.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Jerarquía de cifrado => Conceptos:",
-    "Respuestas Incorrectas": [
-      "Las claves maestras de base de datos se protegen mediante la clave asimétricas maestra de servicio.",
-      "La clave maestra de servicio y todas las claves maestras de base de datos son claves asimétricas.",
-      "El módulo de Administración extensible de claves (EKM) mantiene las claves asimétricas o simétricas fuera de SQL Server.",
-      "Todas las respuestas ANTERIORES son correcta.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "La clave maestra de servicio y todas las claves maestras de base de datos son claves simétricas.",
     "Imagen": ""
   },
   {
