@@ -55,17 +55,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Procedimientos Almacenados:",
-    "Respuestas Incorrectas": [
-      "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
-      "Son módulos o rutinas que encapsulan código para su reutilización.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Procedimientos Almacenados - Caracteristicas:",
     "Respuestas Incorrectas": [
       "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
@@ -106,20 +95,19 @@ const json_preguntas = [
     "Enunciado": "1) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los Procedimientos son más flexibles cuando le incluimos parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
+    "Respuesta correcta": "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
     "Imagen": ""
   },
   {
     "Enunciado": "2) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
       "Mas de una respuesta de las ANTERIORES es correcta.",
@@ -345,12 +333,11 @@ const json_preguntas = [
   {
     "Enunciado": "2) Variables SQL:",
     "Respuestas Incorrectas": [
-      "Permiten almacenar un valor y recuperarlo más adelante para emplearlos en otras sentencias.",
       "Son específicas de cada consulta y son ejecutadas automáticamente al realizar la conexión.",
       "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre no puede contener cualquier carácter.",
-      "Una variable debe ser declarada antes de usarse."
+      "Una variable debe ser declarada al final para usarse en el codigo anterior."
     ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
+    "Respuesta correcta": "Permiten almacenar un valor y recuperarlo más adelante para emplearlos en otras sentencias.",
     "Imagen": ""
   },
   {
@@ -406,13 +393,11 @@ const json_preguntas = [
     "Enunciado": "1) Procedimientos Almacenados - Caracteristicas:",
     "Respuestas Incorrectas": [
       "No aceptan parámetros de entrada.",
-      "Pueden llamar a otros SPs (o sea dentro de un SP de puede llamar a otros SP).",
-      "Pueden devolver valores en la forma de parámetros de salida.",
+      "No Pueden llamar a otros SPs (o sea dentro de un SP de puede llamar a otros SP).",
       "No pueden devolver valores en la forma de parámetros de salida.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+      "Todas las respuestas ANTERIORES son correctas."
     ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
     "Imagen": ""
   },
   {
@@ -433,7 +418,7 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Encapsulan la lógica de negocio y crean piezas de código reutilizable por la aplicación.",
       "Todas las aplicaciones pueden usar los mismos procedimientos para asegurar un acceso consistente a los datos.",
-      "Evitan la exposición de los detalles de las tablas al usuario, haciendo innecesario el acceso a las tablas en",
+      "Evitan la exposición de los detalles de las tablas al usuario, haciendo innecesario el acceso a las tablas",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
@@ -443,7 +428,7 @@ const json_preguntas = [
     "Enunciado": "1) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
@@ -456,13 +441,12 @@ const json_preguntas = [
     "Enunciado": "2) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
-      "Los Procedimientos son más flexibles cuando le incluimos parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
+      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Los parámetros de entrada impiden pasar información al S P. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+      "Todas las respuestas ANTERIORES son correctas."
     ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
     "Imagen": ""
   },
   {
@@ -600,13 +584,12 @@ const json_preguntas = [
     "Enunciado": "2) Triggers:",
     "Respuestas Incorrectas": [
       "Los TRIGGERS son muy similares en su concepto a los procedimientos almacenados, son código Transact-SQL similares en codigo y ejecucion.",
-      "Un TRIGGER se ejecuta en respuesta a un evento.",
       "La manipulación de datos son del tipo TRIGGERS DMZ o por la manipulación de esquemas como los TRIGGERS DLL.",
       "Reciben parámetros de una forma muy especial, en forma de unas tablas virtuales, llamadas inserted y deleted.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
+    "Respuesta correcta": "Un TRIGGER se ejecuta en respuesta a un evento.",
     "Imagen": ""
   },
   {
@@ -646,20 +629,7 @@ const json_preguntas = [
     "Respuesta correcta": "OPEN nombre_del_cursor",
     "Imagen": ""
   }, //////////////////////////////////
-  {
-    "Enunciado": "2) Variables SQL:",
-    "Respuestas Incorrectas": [
-      "Permiten almacenar un valor y recuperarlo más adelante para emplearlos en otras sentencias.",
-      "Son específicas de cada consulta y son ejecutadas automáticamente al realizar la conexión.",
-      "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre no puede contener cualquier carácter.",
-      "Una variable debe ser declarada antes de usarse.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
-    "Imagen": ""
-  },
-  {
+   {
     "Enunciado": "1) Variables SQL - Caracteristicas:",
     "Respuestas Incorrectas": [
       "Solo se puede declarar varias variables en una misma sentencia.",
@@ -674,8 +644,7 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Existen variables globales en SQL Server.",
       "Una variable declarada existe dentro de todo el entorno de trabajo.",
-      "Una variable a la cual no se le ha asignado un valor contiene \"0\" (Cero).",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
+      "Una variable a la cual no se le ha asignado un valor contiene \"0\" (Cero).",      
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -689,7 +658,6 @@ const json_preguntas = [
       "Son un método de encapsular tareas repetitivas que no involucran variables definidas por el motor de SQL para cálculos intermedios.",
       "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
       "Son querys y variables que encapsulan código para su reutilización.",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -701,7 +669,6 @@ const json_preguntas = [
       "No aceptan parámetros de entrada.",
       "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
       "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
-      "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -724,7 +691,7 @@ const json_preguntas = [
     "Enunciado": "1) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas."
@@ -736,7 +703,7 @@ const json_preguntas = [
     "Enunciado": "2) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
       "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
@@ -1066,26 +1033,13 @@ const json_preguntas = [
     "Enunciado": "2) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
       "Mas de una respuesta de las ANTERIORES es correcta.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Los Procedimientos son más flexibles cuando le incluimos parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Tipos de funciones - Funciones Escalares:",
-    "Respuestas Incorrectas": [
-      "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
-      "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
-      "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
-      "Es similar a una vista ofreciendo mas flexibilidad.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
     "Imagen": ""
   },
   {
@@ -1211,13 +1165,12 @@ const json_preguntas = [
     "Enunciado": "1) Triggers:",
     "Respuestas Incorrectas": [
       "Los TRIGGERS son muy similares en su concepto a los procedimientos almacenados, son código Transact-SQL similares en codigo y ejecucion.",
-      "Un TRIGGER se ejecuta en respuesta a un evento.",
       "La manipulación de datos son del tipo TRIGGERS DMZ o por la manipulación de esquemas como los TRIGGERS DLL.",
       "Reciben parámetros de una forma muy especial, en forma de unas tablas virtuales, llamadas inserted y deleted.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
-    "Respuesta correcta": "Mas de una respuesta de las ANTERIORES es correcta.",
+    "Respuesta correcta": "Un TRIGGER se ejecuta en respuesta a un evento.",
     "Imagen": ""
   },
   {
