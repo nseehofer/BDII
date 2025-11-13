@@ -187,7 +187,7 @@ const json_preguntas = [
     "Enunciado": "1) Triggers: Nivel de base de datos",
     "Respuestas Incorrectas": [
       "Responden a la necesidad de garantizar la integridad y consistencia de los datos dentro de nuestras tablas de usuario.",
-      "No ayudan a mantener las reglas de diseño de nuestra base de datos.",
+      "Nos ayudan a mantener las reglas de diseño de nuestra base de datos.",
       "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -309,18 +309,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Procedimientos Almacenados - Caracteristicas:",
-    "Respuestas Incorrectas": [
-      "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
-      "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
-      "No pueden devolver valores en la forma de parámetros de salida.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Aceptan parámetros de entrada.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Procedimientos Almacenados - Ventajas:",
     "Respuestas Incorrectas": [
       "Encapsulan la lógica de negocio y crean piezas de código reutilizable por la aplicación.",
@@ -335,7 +323,7 @@ const json_preguntas = [
     "Enunciado": "1) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
@@ -572,7 +560,7 @@ const json_preguntas = [
   {
     "Enunciado": "1) Tipos de funciones - Funciones Escalares:",
     "Respuestas Incorrectas": [
-      " Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla. ",
+      "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla. ",
       "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
       "Es similar a una vista ofreciendo mas flexibilidad."
     ],
@@ -805,18 +793,6 @@ const json_preguntas = [
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Procedimientos Almacenados - Caracteristicas:",
-    "Respuestas Incorrectas": [
-      "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
-      "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
-      "No pueden devolver valores en la forma de parámetros de salida.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Aceptan parámetros de entrada.",
     "Imagen": ""
   },
   {
