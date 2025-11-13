@@ -39,18 +39,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "1) Procedimientos Almacenados:",
-    "Respuestas Incorrectas": [
-      "Es un grupo de sentencias T-SQL compiladas dentro de un plan de una query.",
-      "Son un método de encapsular tareas repetitivas que no involucran variables definidas por el motor de SQL para cálculos intermedios.",
-      "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
-      "Son querys y variables que encapsulan código para su reutilización.",
-      "Todas las respuestas ANTERIORES son correctas."
-    ],
-    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Procedimientos Almacenados - Caracteristicas:",
     "Respuestas Incorrectas": [
       "Devuelven mas de un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
@@ -89,7 +77,6 @@ const json_preguntas = [
     "Enunciado": "1) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los Procedimientos son más flexibles cuando le incluimos parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
@@ -336,18 +323,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Variables SQL - Caracteristicas:",
-    "Respuestas Incorrectas": [
-      "Solo se puede declarar varias variables en una misma sentencia.",
-      "Existen variables globales en SQL Server.",
-      "Una variable declarada existe dentro de todo el entorno de trabajo.",
-      "Todas las respuestas ANTERIORES son correctas,",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Una variable a la cual no se le ha asignado un valor contiene null\".",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Procedimientos Almacenados:",
     "Respuestas Incorrectas": [
       "Es un grupo de sentencias T-SQL compiladas dentro de un plan de una query.",
@@ -440,12 +415,12 @@ const json_preguntas = [
     "Enunciado": "2) Tipos de funciones - Funciones Escalares:",
     "Respuestas Incorrectas": [
       "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
-      "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
+      "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
       "Es similar a una vista ofreciendo mas flexibilidad.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
-    "Respuesta correcta": "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
+    "Respuesta correcta": "Devuelven un solo tipo de valor definido en la clausula 'Returns'.",
     "Imagen": ""
   },
   {
@@ -619,18 +594,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Procedimientos Almacenados:",
-    "Respuestas Incorrectas": [
-      "Es un grupo de sentencias T-SQL compiladas dentro de un plan de una query.",
-      "Son un método de encapsular tareas repetitivas que no involucran variables definidas por el motor de SQL para cálculos intermedios.",
-      "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
-      "Son querys y variables que encapsulan código para su reutilización.",
-      "Todas las respuestas ANTERIORES son correctas."
-    ],
-    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "2) Procedimientos Almacenados - Caracteristicas:",
     "Respuestas Incorrectas": [
       "No aceptan parámetros de entrada.",
@@ -657,7 +620,7 @@ const json_preguntas = [
     "Enunciado": "1) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
       "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
       "Todas las respuestas ANTERIORES son correctas."
     ],
@@ -761,7 +724,7 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Cada inicio de sesión pertenece al rol fijo de servidor public y cada usuario de base de datos pertenece al rol de base de datos master.",
       "Cuando a un usuario o inicio de sesión se le han concedido permisos concretos para un elemento protegible, hereda los permisos para ese elemento concedidos a public.",
-      "necesarios para realizar operaciones rutinarias en la base de datos; el tipo de tareas que los dba deben poder hacer.",
+      "Necesarios para realizar operaciones rutinarias en la base de datos; el tipo de tareas que los dba deben poder hacer.",
       "Todas las respuestas ANTERIORES son correcta."
     ],
     "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
@@ -878,18 +841,6 @@ const json_preguntas = [
       "Todas las respuestas ANTERIORES son correctas."
     ],
     "Respuesta correcta": "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre puede contener cualquier carácter.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Variables SQL-Caracteristicas:",
-    "Respuestas Incorrectas": [
-      "Solo se puede declarar varias variables en una misma sentencia.",
-      "Existen variables globales en SQL Server.",
-      "Una variable declarada existe dentro de todo el entorno de trabajo.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Una variable a la cual no se le ha asignado un valor contiene \"null\".",
     "Imagen": ""
   },
   {
