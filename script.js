@@ -944,7 +944,6 @@ const json_preguntas = [
       "No aceptan parámetros de entrada.",
       "No pueden llamar a otros SPs (o sea dentro de un SP no se puede llamar a otros SP).",
       "No pueden devolver valores en la forma de parámetros de salida.",
-      "Mas de una respuesta de las ANTERIORES es correcta",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
@@ -958,7 +957,6 @@ const json_preguntas = [
       "Todas las aplicaciones pueden usar los mismos procedimientos para asegurar un acceso consistente a los datos.",
       "Evitan la exposición de los detalles de las tablas al usuario, haciendo innecesario el acceso a las tablas en forma directa, lo que incrementa sensiblemente la seguridad.",
       "Puede otorgarse permisos de ejecución a un procedimiento a un usuario aun cuando no tenga permisos sobre las tablas o vistas usadas por el procedimiento.",
-      "Mas de una respuesta de las ANTERIORES es correcta",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
@@ -1129,11 +1127,13 @@ const json_preguntas = [
   {
     "Enunciado": "1) Transacciones Implicitas:",
     "Respuestas Incorrectas": [
-      "Mas de una respuesta de las ANTERIORES es correcta",
+      "Debe validar la totalidad de la ejecución para que confirmar o revertir cada transacción.",
+      "Genera una cadena fraccionada de transacciones.",
+      "Inicia manualmente una nueva transacción después de confirmar o revertir la transacción anterior.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
-    "Respuesta correcta": "Genera una cadena fraccionada de transacciones.",
+    "Respuesta correcta": "No tiene que realizar ninguna acción para delinear el inicio de una transacción.",
     "Imagen": ""
   },
   {
