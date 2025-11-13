@@ -280,7 +280,6 @@ const json_preguntas = [
       "Puede declarar varias variables en una misma sentencia.",
       "No existen variables globales en SQL Server.",
       "Una variable declarada existe dentro del entorno en que se declara.",
-      "Una variable a la cual no se le ha asignado un valor contiene \"null\".",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
