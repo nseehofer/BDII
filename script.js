@@ -298,15 +298,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Procedimientos Almacenados:",
-    "Respuestas Incorrectas": [
-      "Son querys y variables que encapsulan código para su reutilización.",
-      "Todas las respuestas ANTERIORES son correctas."
-    ],
-    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Procedimientos Almacenados - Caracteristicas:",
     "Respuestas Incorrectas": [
       "No aceptan parámetros de entrada.",
@@ -581,7 +572,7 @@ const json_preguntas = [
   {
     "Enunciado": "1) Tipos de funciones - Funciones Escalares:",
     "Respuestas Incorrectas": [
-      "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
+      " Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla. ",
       "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
       "Es similar a una vista ofreciendo mas flexibilidad."
     ],
@@ -875,28 +866,6 @@ const json_preguntas = [
     ],
     "Respuesta correcta": "Los Procedimientos son más flexibles cuando le incluimos parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
     "Imagen": ""
-  },
-  {
-    "Enunciado": "2) Tipos de funciones - Funciones Tabulares en Linea:",
-    "Respuestas Incorrectas": [
-      "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
-      "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Es similar a una vista ofreciendo mas flexibilidad.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Dado el siguiente código de Store Procedure de SQL indicar el enunciado correcto. (InsertOrUpdateMovie)",
-    "Respuestas Incorrectas": [
-      "Confeccionar un SP para insertar una nueva película en la tabla. Si ya existe un registro con la misma combinación de ID y Titulo, se debe actualizar el campo Duracion de ese registro. Si se produce algún error durante la operación, se debe manejar.",
-      "Confeccionar un SP para insertar una nueva película en la tabla. Si ya existe un registro con la misma combinación de ID y Genero, se debe insertar un nuevo registro sin realizar ninguna actualización. Si se produce un error durante la operación, se debe manejar.",
-      "Confeccionar un SP para insertar una nueva película en la tabla. Si ya existe un registro con la misma combinación de ID y Genero, se debe eliminar el registro existente y luego insertar el nuevo. En caso de error, mostrar mensaje indicando que la película ya existe.",
-      
-    ],
-    "Respuesta correcta": "Ninguno de los enunciados ANTERIORES es correcto. Codigo Incorrecto.",
-    "Imagen": "imagenes/2-PARCIAL2-DadoElSiguienteCodigoDeStoreProcedureDeSQLIndicarElEnunciadoCorrecto.png"
   },
   {
     "Enunciado": "2) Dado el siguiente código de Store Procedure de SQL indicar el enunciado correcto. (dbo.alumnos)",
