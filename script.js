@@ -160,20 +160,9 @@ const json_preguntas = [
       "Creacion de Tabla dbo. NumeroPar y Store Procedure que permita insertar números pares del 4 al 21 en una tabla con el nombre dbo. NumeroPar (nro smallint). Excepto los números 8, 12 y 18. La tabla debe ser creada fuera del procedimiento."
     ],
     "Respuesta correcta": "Ninguno de los enunciados ANTERIORES es correcto. Codigo Incorrecto",
-    "Imagen": "imagenes/3PARCIAL-3-STOREPROCEDURE.png"
+    "Imagen": "imagenes/2-DadoElSiguienteCodigoDeStoreProcedureDeSQLIndicarElEnunciadoCorrecto.png"
   },
-  {
-    "Enunciado": "3) Dado el siguiente código de Store Procedure de SQL indicar el enunciado correcto.",
-    "Respuestas Incorrectas": [
-      "Creacion de Tabla dbo. NumeroPar y Store Procedure que permita insertar números pares del 4 al 22 en una tabla con el nombre dbo. NumeroPar (nro smallint). Excepto los números 8, 12 y 18. La tabla debe ser creada fuera del procedimiento.",
-      "Creacion de Tabla dbo. NumeroPar y Store Procedure que permita insertar números pares del 4 al 22 en una tabla con el nombre dbo. NumeroPar (nro smallint). Excepto los números 8, 12 y 18. La tabla debe ser creada en el procedimiento.",
-      "Creacion de Tabla dbo.NumeroPar y Store Procedure que permita insertar números pares del 4 al 21 en una tabla con el nombre dbo. NumeroPar (nro smallint). Excepto los números 8, 12 y 18. La tabla debe ser creada fuera del procedimiento.",
-      "Ninguno de los enunciados ANTERIORES es correcto. Codigo Incorrecto"
-    ],
-    "Respuesta correcta": "Creacion de Tabla dbo. NumeroPar Store Procedure que permita insertar números pares del 4 al 21 en una tabla con el nombre dbo. NumeroPar (nro smallint). Excepto los números 8, 12 y 18. La tabla debe ser creada fuera del procedimiento.",
-    "Imagen": ""
-  },
-  {
+   {
     "Enunciado": "4) Dado el siguiente código de Store Procedure de SQL indicar el enunciado correcto.",
     "Respuestas Incorrectas": [
       "Creacion de Store Procedure que inserte a la tabla dbo. NumeroPar el número ingresado... sólo se deberá insertar si el número es par. De lo contrario lanzar una excepción. La tabla debe ser creada en el procedimiento.",
@@ -945,7 +934,7 @@ const json_preguntas = [
       "Ninguna de las opciones ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Imprimir todos los nombres de productos de la tabla Products uno por uno.",
-    "Imagen": ""
+    "Imagen": "imagenes/CURSORES.png"
   },
   {
     "Enunciado": "1) Variables SQL:",
@@ -1116,10 +1105,10 @@ const json_preguntas = [
       "Confeccionar un SP para insertar una nueva película en la tabla. Si ya existe un registro con la misma combinación de ID y Titulo, se debe actualizar el campo Duracion de ese registro. Si se produce algún error durante la operación, se debe manejar.",
       "Confeccionar un SP para insertar una nueva película en la tabla. Si ya existe un registro con la misma combinación de ID y Genero, se debe insertar un nuevo registro sin realizar ninguna actualización. Si se produce un error durante la operación, se debe manejar.",
       "Confeccionar un SP para insertar una nueva película en la tabla. Si ya existe un registro con la misma combinación de ID y Genero, se debe eliminar el registro existente y luego insertar el nuevo. En caso de error, mostrar mensaje indicando que la película ya existe.",
-      "Ninguno de los enunciados ANTERIORES es correcto. Codigo Incorrecto"
+      
     ],
-    "Respuesta correcta": "Confeccionar un SP para que permita insertar Peliculas (con el campo ID, Genero, Titulo y Duracion) en una tabla con el nombre dbo.Movies, excepto que el ID y el Genero como combinacion de ambas ya exista en la tabla, en caso de duplicado, actualizar el valor duracion y generar el manejo de error correspondiente.",
-    "Imagen": "imagenes/1-PARCIAL2-DadoElSiguienteCodigoDeStoreProcedureDeSQLIndicarElEnunciadoCorrecto.png"
+    "Respuesta correcta": "Ninguno de los enunciados ANTERIORES es correcto. Codigo Incorrecto.",
+    "Imagen": "imagenes/2-PARCIAL2-DadoElSiguienteCodigoDeStoreProcedureDeSQLIndicarElEnunciadoCorrecto.png"
   },
   {
     "Enunciado": "2) Dado el siguiente código de Store Procedure de SQL indicar el enunciado correcto. (dbo.alumnos)",
