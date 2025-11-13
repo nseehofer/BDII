@@ -149,18 +149,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "1) Usuario y esquema dbo.",
-    "Respuestas Incorrectas": [
-      "El usuario dbo es una tabla de seguridad de usuario especial que hay en cada base de datos.",
-      "Todos los administradores de SQL Server, los miembros del rol fijo de servidor sysdba, el inicio de sesión sa y los propietarios de la base de datos especifican las bases de datos como el usuario dbo.",
-      "El usuario dbo tiene todos los permisos en la base de datos master y se limitar o desactivar.",
-      "Todas las respuestas ANTERIORES son correcta.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "El rol fijo de base de datos db_owner no es lo mismo que la cuenta de usuario que se registra como el propietario de la base de datos.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "2) Inicio de sesión sa:",
     "Respuestas Incorrectas": [
       "La cuenta sa se crea de forma predeterminada cuando se instala una base de datos.",
