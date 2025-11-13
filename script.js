@@ -512,18 +512,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Variables SQL - Caracteristicas:",
-    "Respuestas Incorrectas": [
-      "Existen variables globales en SQL Server.",
-      "Una variable declarada existe dentro de todo el entorno de trabajo.",
-      "Una variable a la cual no se le ha asignado un valor contiene \"0\" (Cero).",      
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Puede declarar varias variables en una misma sentencia.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "2) Procedimientos Almacenados - Caracteristicas:",
     "Respuestas Incorrectas": [
       "No aceptan parámetros de entrada.",
@@ -691,18 +679,6 @@ const json_preguntas = [
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Una operación de borrado de registros con la instrucción delete sobre una tabla que tiene un TRIGGER de tipo INSTEAD OF, cuando detecta esta operación invoca al TRIGGER que es el responsable de actuar sobre los registros afectados.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Características ACID: => Atomicidad (Atomicity)",
-    "Respuestas Incorrectas": [
-      "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
-      "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
-      "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Esta propiedad asegura que una transacción se ejecute de manera completa o no se ejecute en absoluto.",
     "Imagen": ""
   },
   {
