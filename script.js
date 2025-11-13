@@ -85,18 +85,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Procedimientos Almacenados - Parametros:",
-    "Respuestas Incorrectas": [
-      "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
-      "Los Procedimientos nunca pueden incluir parámetros en su definición, de modo tal que pueda crear una lógica de comportamiento más genérica.",
-      "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
-      "Todas las respuestas ANTERIORES son correctas."
-    ],
-    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "2) Tipos de funciones - Funciones Tabulares en Linea:",
     "Respuestas Incorrectas": [
       "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
@@ -929,7 +917,7 @@ const json_preguntas = [
     "Enunciado": "2) Procedimientos Almacenados - Parametros:",
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
-      "Los parámetros de salida deben incluir la palabra clave OUTPUT para diferenciar de los de entrada.",
+      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
       "Los parámetros de entrada impiden pasar información al SP. Estos valores son ingresados como variables locales al momento de la ejecucion dentro del procedimiento almacenado.",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
