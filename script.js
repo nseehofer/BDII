@@ -1413,66 +1413,108 @@ function generarExamen() {
 }
 
 function corregirExamen(event) {
-  event.preventDefault(); 
+ event.preventDefault(); // Evita que el formulario se envíe
 
-  let correctas = 0;
-  let incorrectas = 0;
-  
-  const form = event.target;
-  const formData = new FormData(form);
+ let correctas = 0;
+let incorrectas = 0;
 
-  preguntasDelExamen.forEach((pregunta, index) => {
-    
-    const respuestaCorrecta = pregunta['Respuesta correcta'];
-    const respuestaUsuario = formData.get(`pregunta-${index}`); 
-    
-    const radios = document.querySelectorAll(`input[name="pregunta-${index}"]`);
-    
-    radios.forEach(radio => {
-      radio.disabled = true;
-      const label = radio.nextElementSibling; 
+ const form = event.target;
+ const formData = new FormData(form);
 
-      if (radio.value === respuestaCorrecta) {
-        label.classList.add('respuesta-correcta');
-      } else if (radio.value === respuestaUsuario && respuestaUsuario !== respuestaCorrecta) {
-        label.classList.add('respuesta-incorrecta-usuario');
-      }
-    });
+ // 1. Bucle de corrección (esto queda igual)
+ preguntasDelExamen.forEach((pregunta, index) => {
 
-    if (respuestaUsuario === respuestaCorrecta) {
-      correctas++;
-    } else {
-      incorrectas++;
-    }
+const respuestaCorrecta = pregunta['Respuesta correcta'];
+const respuestaUsuario = formData.get(`pregunta-${index}`);
+
+ const radios = document.querySelectorAll(`input[name="pregunta-${index}"]`);
+
+// Deshabilita inputs y marca visualmente las respuestas
+ radios.forEach(radio => {
+   radio.disabled = true;
+   const label = radio.nextElementSibling;
+
+   if (radio.value === respuestaCorrecta) {
+    label.classList.add('respuesta-correcta'); // Marca la correcta en verde
+   } else if (radio.value === respuestaUsuario && respuestaUsuario !== respuestaCorrecta) {
+    label.classList.add('respuesta-incorrecta-usuario'); // Marca la elegida incorrecta en rojo
+   }
   });
 
-  const aprobado = correctas > 15;
-  const resultadoContainer = document.getElementById('resultadoContainer');
-  
+  // Conteo de puntos
+  if (respuestaUsuario === respuestaCorrecta) {
+   correctas++;
+  } else {
+   incorrectas++;
+  }
+ });
+
+ // =================================================================
+ // 2. INICIO DE LA LÓGICA DE APROBACIÓN CORREGIDA (Según tu pedido)
+ // =================================================================
+ 
+ // Obtenemos el total de preguntas que realmente se mostraron
+ const totalPreguntas = preguntasDelExamen.length;
+ 
+ // Calculamos el porcentaje (con .toFixed(2) para mostrar solo 2 decimales)
+ const porcentaje = totalPreguntas > 0 ? (correctas / totalPreguntas) * 100 : 0;
+ 
+ // Determinamos la nota según la escala
+ let nota = 0; // Nota por defecto (desaprobado)
+ if (porcentaje >= 100) {
+  nota = 10;
+ } else if (porcentaje >= 90) {
+  nota = 9;
+ } else if (porcentaje >= 80) {
+  nota = 8;
+ } else if (porcentaje >= 70) {
+  nota = 6;
+ } else if (porcentaje >= 65) {
+  nota = 5;
+ } else if (porcentaje >= 60) {
+  nota = 4;
+ } else {
+  nota = 2; // O la nota de desaprobado que prefieras (ej: 2)
+ }
+ 
+ // Determinamos si aprobó (60% o más)
+ const aprobado = porcentaje >= 60;
+
+ // =================================================================
+ // 3. FIN DE LA LÓGICA CORREGIDA
+ // =================================================================
+
+ const resultadoContainer = document.getElementById('resultadoContainer');
+
+ // 4. Mostramos el HTML del resultado (actualizado para incluir la Nota)
  resultadoContainer.innerHTML = `
-    <div class="alert ${aprobado ? 'alert-success' : 'alert-danger'} shadow p-4">
-      <h2 class="alert-heading text-center">${aprobado ? '¡APROBADO! 🎉' : 'DESAPROBADO 😥'}</h2>
-      <hr>
-      <p class="fs-4 text-center mb-0">
-        Respuestas Correctas: <strong class="fs-3">${correctas}</strong>
-      </p>
-      <p class="fs-4 text-center mb-0">
-        Respuestas Incorrectas: <strong class="fs-3">${incorrectas}</strong>
-      </p>
+  <div class="alert ${aprobado ? 'alert-success' : 'alert-danger'} shadow p-4">
+   <h2 class="alert-heading text-center">${aprobado ? '¡APROBADO! 🎉' : 'DESAPROBADO 😥'}</h2>
+   <hr>
+   <p class="fs-3 text-center mb-1">
+    Nota Final: <strong class="fs-2">${nota}</strong>
+   </p>
+   <p class="fs-5 text-center mb-3">
+    (Porcentaje de aciertos: ${porcentaje.toFixed(2)}%)
+   </p>
+   <p class="fs-5 text-center mb-0">
+    Correctas: <strong>${correctas}</strong> | Incorrectas: <strong>${incorrectas}</strong> (de ${totalPreguntas} preguntas)
+   </p>
 
-      <div class="text-center mt-4">
-        <button type="button" id="btnRestaurar" class="btn btn-secondary">
-          Volver a Realizar el Examen
-        </button>
-      </div>
-      </div>
-  `;
+   <div class="text-center mt-4">
+    <button type="button" id="btnRestaurar" class="btn btn-secondary">
+ Volver a Realizar el Examen
+ </button>
+ </div>
+ </div>
+ `;
 
-  document.getElementById('btnRestaurar').addEventListener('click', restaurarExamen);
-  document.getElementById('btnSubmit').disabled = true;
-  document.getElementById('btnSubmit').innerText = 'Examen Corregido';
+ // 5. Lógica restante de la función (igual que antes)
+ document.getElementById('btnRestaurar').addEventListener('click', restaurarExamen);
+ document.getElementById('btnSubmit').disabled = true;
+ document.getElementById('btnSubmit').innerText = 'Examen Corregido';
 
-  resultadoContainer.scrollIntoView({ behavior: 'smooth' });
+ resultadoContainer.scrollIntoView({ behavior: 'smooth' });
 }
 
 
