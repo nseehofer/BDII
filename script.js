@@ -85,18 +85,6 @@ const json_preguntas = [
     "Imagen": ""
   },
   {
-    "Enunciado": "2) Tipos de funciones - Funciones Tabulares en Linea:",
-    "Respuestas Incorrectas": [
-      "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
-      "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
-      "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
-    "Imagen": ""
-  },
-  {
     "Enunciado": "1) Dado el siguiente código de Store Procedure de SQL indicar el enunciado correcto.",
     "Respuestas Incorrectas": [
       "Confeccionar un SP que permita insertar un nuevo dispositivo en la tabla dbo.Inventariodispositivos. Si ya existe un registro con el mismo Marca y Modelo, debe actualizar todos los campos (Memoria, Procesador y Marca). Si el Modelo ya está registrado pero la Marca es diferente, debe actualizar solo los valores de Memoria y Procesador sin generar ningún error.",
@@ -1026,109 +1014,6 @@ const json_preguntas = [
     ],
     "Respuesta correcta": "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
     "Imagen": ""
-  },
-  {
-    "Enunciado": "2) ¿Cuál es el resultado de la siguiente instrucción SQL para crear un trigger AFTER DELETE en la tabla Clientes?",
-    "Respuestas Incorrectas": [
-      "El trigger previene la eliminación de clientes en la tabla Clientes.",
-      "El trigger actualiza la tabla Clientes cada vez que se elimina un cliente.",
-      "El trigger registra todas las acciones que ocurren en la tabla Clientes, independientemente de si son eliminaciones, inserciones o actualizaciones, insertando el ID del cliente, la acción y la fecha.",
-      "Ninguno de los enunciados ANTERIORES es correcto."
-    ],
-    "Respuesta correcta": "El trigger registra las eliminaciones de clientes en la tabla Cliente_Log, insertando el ID del cliente eliminado, la acción y la fecha de la eliminación.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "3) ¿Cuál es el resultado de la siguiente instrucción SQL para crear un trigger AFTER INSERT en la tabla Pedidos?",
-    "Respuestas Incorrectas": [
-      "El trigger evita que se inserten nuevos registros en la tabla Pedidos.",
-      "El trigger registra solo las actualizaciones realizadas en la tabla Pedidos, indicando el ID del pedido, la acción \"Nuevo Pedido\", y la fecha de la inserción.",
-      "El trigger actualiza la tabla Pedidos con nuevos registros a medida que se insertan, indicando el ID del pedido, la acción \"Nuevo Pedido, y la fecha de la inserción.",
-      "Ninguno de los enunciados ANTERIORES es correcto."
-    ],
-    "Respuesta correcta": "El trigger registra los nuevos pedidos insertados en la tabla Pedido_Log, indicando el ID del pedido, la acción \"Nuevo Pedido\", y la fecha de la inserción.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Jerarquia de cifrado => Conceptos:",
-    "Respuestas Incorrectas": [
-      "fuera de SQL Server.",
-      "Todas las respuestas ANTERIORES son correcta.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "La clave maestra de servicio y todas las claves maestras de base de datos son claves simétricas.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Triggers: Nivel de base de datos",
-    "Respuestas Incorrectas": [
-      "Responden a la necesidad de garantizar la integridad y disponibilidad de los datos dentro de nuestras tablas de usuario.",
-      "No ayudan a mantener las reglas de actualizacion de nuestra base de datos.",
-      "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada de acuerdo a los estándares de la instalacion por defecto.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Tienen dos alcances diferenciados, a nivel de servidor y a nivel de base de datos.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "2) Triggers: INSTEAD OF",
-    "Respuestas Incorrectas": [
-      "Pueden usarse como mecanismo para realizar operaciones no controladas en tablas.",
-      "La creacion inadecuada pueden causar daño a la base de datos y que la misma se comporte de manera inadecuadamente.",
-      "Se disparan en paralelo de la operación que los produce.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Una operación de borrado de registros con la instrucción delete sobre una tabla que tiene un TRIGGER de tipo INSTEAD OF, cuando detecta esta operación invoca al TRIGGER que es el responsable de actuar sobre los registros afectados.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) Características ACID: => Durabilidad (Durability)",
-    "Respuestas Incorrectas": [
-      "Esta propiedad asegura que una transacción se ejecute de manera completa o no se ejecute en absoluto.",
-      "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
-      "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "2) Transacciones Implícitas:",
-    "Respuestas Incorrectas": [
-      "Inicia manualmente una nueva transacción después de confirmar o revertir la transacción anterior.",
-      "Se deben realizar las acciones necesarias para delinear el inicio de una transacción.",
-      "Debe validar la totalidad de la ejecución para que confirmar o revertir cada transacción.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Genera una cadena continua de transacciones.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "3) Transacciones Implicitas:",
-    "Respuestas Incorrectas": [
-      "Inicia manualmente una nueva transacción después de confirmar o revertir la transacción anterior.",
-      "Debe validar la totalidad de la ejecución para que confirmar o revertir cada transacción.",
-      "Genera una cadena fraccionada de transacciones.",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "No tiene que realizar ninguna acción para delinear el inicio de una transacción.",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "1) ¿Qué sentencia es necesaria para abrir un cursor en SQL?",
-    "Respuestas Incorrectas": [
-      "ACTIVATE nombre_del_cursor",
-      "START nombre_del_cursor",
-      "EXECUTE nombre_del_cursor",
-      "Ninguno de los enunciados ANTERIORES es correcto"
-    ],
-    "Respuesta correcta": "OPEN nombre_del_cursor",
-    "Imagen": ""
   },{
     "Enunciado": "1) Variables SQL:",
     "Respuestas Incorrectas": [
@@ -1223,25 +1108,12 @@ const json_preguntas = [
     "Enunciado": "1) Tipos de funciones - Funciones Tabulares en Linea:",
     "Respuestas Incorrectas": [
       "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
-      "Se le pueden suministrar parametros a la funcion,",
       "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
       "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
       "Todas las respuestas ANTERIORES son correctas.",
       "Ninguna de TODAS las respuestas ANTERIORES es correcta."
     ],
     "Respuesta correcta": "Se le pueden suministrar parametros a la funcion,",
-    "Imagen": ""
-  },
-  {
-    "Enunciado": "2) Tipos de funciones - Funciones Tabulares en Linea:",
-    "Respuestas Incorrectas": [
-      "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
-      "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
-      "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
-      "Todas las respuestas ANTERIORES son correctas.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
-    ],
-    "Respuesta correcta": "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
     "Imagen": ""
   },
   {
