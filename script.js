@@ -969,6 +969,465 @@ const json_preguntas = [
     ],
     "Respuesta correcta": "DEALLOCATE nombre_del_cursor",
     "Imagen": ""
+  },{
+    "Enunciado": "1) Procedimientos Almacenados:",
+    "Respuestas Incorrectas": [
+      "Es un grupo de sentencias T-SQL compiladas dentro de un plan de una query.",
+      "Son un método de encapsular tareas repetitivas que no involucran variables definidas por el motor de SQL para cálculos intermedios.",
+      "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
+      "Son querys y variables que encapsulan código para su reutilización.",
+      "Todas las respuestas ANTERIORES son correctas."
+    ],
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Procedimientos Almacenados:",
+    "Respuestas Incorrectas": [
+      "Es un grupo de sentencias T-SQL compiladas dentro de un plan de ejecución.",
+      "Son un método de encapsular tareas repetitivas que involucran variables definidas por el usuario para cálculos intermedios.",
+      "Son sentencias de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
+      "Son módulos o rutinas que encapsulan código para su reutilización.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Procedimientos Almacenados - Caracteristicas:",
+    "Respuestas Incorrectas": [
+      "Aceptan parámetros de entrada.",
+      "Devuelven un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
+      "Pueden llamar a otros SPs (o sea dentro de un SP de puede llamar a otros SP).",
+      "Pueden devolver valores en la forma de parámetros de salida.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Procedimientos Almacenados - Parametros:",
+    "Respuestas Incorrectas": [
+      "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
+      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Tipos de funciones - Funciones Tabulares en Linea:",
+    "Respuestas Incorrectas": [
+      "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
+      "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
+      "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) ¿Cuál es el resultado de la siguiente instrucción SQL para crear un trigger AFTER DELETE en la tabla Clientes?",
+    "Respuestas Incorrectas": [
+      "El trigger previene la eliminación de clientes en la tabla Clientes.",
+      "El trigger actualiza la tabla Clientes cada vez que se elimina un cliente.",
+      "El trigger registra todas las acciones que ocurren en la tabla Clientes, independientemente de si son eliminaciones, inserciones o actualizaciones, insertando el ID del cliente, la acción y la fecha.",
+      "Ninguno de los enunciados ANTERIORES es correcto."
+    ],
+    "Respuesta correcta": "El trigger registra las eliminaciones de clientes en la tabla Cliente_Log, insertando el ID del cliente eliminado, la acción y la fecha de la eliminación.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "3) ¿Cuál es el resultado de la siguiente instrucción SQL para crear un trigger AFTER INSERT en la tabla Pedidos?",
+    "Respuestas Incorrectas": [
+      "El trigger evita que se inserten nuevos registros en la tabla Pedidos.",
+      "El trigger registra solo las actualizaciones realizadas en la tabla Pedidos, indicando el ID del pedido, la acción \"Nuevo Pedido\", y la fecha de la inserción.",
+      "El trigger actualiza la tabla Pedidos con nuevos registros a medida que se insertan, indicando el ID del pedido, la acción \"Nuevo Pedido, y la fecha de la inserción.",
+      "Ninguno de los enunciados ANTERIORES es correcto."
+    ],
+    "Respuesta correcta": "El trigger registra los nuevos pedidos insertados en la tabla Pedido_Log, indicando el ID del pedido, la acción \"Nuevo Pedido\", y la fecha de la inserción.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Jerarquia de cifrado => Conceptos:",
+    "Respuestas Incorrectas": [
+      "fuera de SQL Server.",
+      "Todas las respuestas ANTERIORES son correcta.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "La clave maestra de servicio y todas las claves maestras de base de datos son claves simétricas.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Triggers: Nivel de base de datos",
+    "Respuestas Incorrectas": [
+      "Responden a la necesidad de garantizar la integridad y disponibilidad de los datos dentro de nuestras tablas de usuario.",
+      "No ayudan a mantener las reglas de actualizacion de nuestra base de datos.",
+      "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada de acuerdo a los estándares de la instalacion por defecto.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Tienen dos alcances diferenciados, a nivel de servidor y a nivel de base de datos.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Triggers: INSTEAD OF",
+    "Respuestas Incorrectas": [
+      "Pueden usarse como mecanismo para realizar operaciones no controladas en tablas.",
+      "La creacion inadecuada pueden causar daño a la base de datos y que la misma se comporte de manera inadecuadamente.",
+      "Se disparan en paralelo de la operación que los produce.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Una operación de borrado de registros con la instrucción delete sobre una tabla que tiene un TRIGGER de tipo INSTEAD OF, cuando detecta esta operación invoca al TRIGGER que es el responsable de actuar sobre los registros afectados.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Características ACID: => Durabilidad (Durability)",
+    "Respuestas Incorrectas": [
+      "Esta propiedad asegura que una transacción se ejecute de manera completa o no se ejecute en absoluto.",
+      "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
+      "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Transacciones Implícitas:",
+    "Respuestas Incorrectas": [
+      "Inicia manualmente una nueva transacción después de confirmar o revertir la transacción anterior.",
+      "Se deben realizar las acciones necesarias para delinear el inicio de una transacción.",
+      "Debe validar la totalidad de la ejecución para que confirmar o revertir cada transacción.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Genera una cadena continua de transacciones.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "3) Transacciones Implicitas:",
+    "Respuestas Incorrectas": [
+      "Inicia manualmente una nueva transacción después de confirmar o revertir la transacción anterior.",
+      "Debe validar la totalidad de la ejecución para que confirmar o revertir cada transacción.",
+      "Genera una cadena fraccionada de transacciones.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "No tiene que realizar ninguna acción para delinear el inicio de una transacción.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) ¿Qué sentencia es necesaria para abrir un cursor en SQL?",
+    "Respuestas Incorrectas": [
+      "ACTIVATE nombre_del_cursor",
+      "START nombre_del_cursor",
+      "EXECUTE nombre_del_cursor",
+      "Ninguno de los enunciados ANTERIORES es correcto"
+    ],
+    "Respuesta correcta": "OPEN nombre_del_cursor",
+    "Imagen": ""
+  },{
+    "Enunciado": "1) Variables SQL:",
+    "Respuestas Incorrectas": [
+      "Permiten almacenar un valor y recuperarlo en sentencias anteriores a ser declarada para emplearlos en otras sentencias.",
+      "Comienzan con \"@\" (arroba) seguido del nombre (sin espacios), dicho nombre no puede contener cualquier carácter,",
+      "Una variable debe ser declarada al final para usarse en el codigo anterior.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Son específicas de cada conexión y son liberadas automáticamente al abandonar la conexión.",
+    "Imagen": ""
+  },{
+    "Enunciado": "2) ¿Cuál es el resultado de la siguiente instrucción SQL para crear un trigger AFTER DELETE en la tabla Clientes?",
+    "Respuestas Incorrectas": [
+      "El trigger previene la eliminación de clientes en la tabla Clientes.",
+      "El trigger actualiza la tabla Clientes cada vez que se elimina un cliente.",
+      "El trigger registra todas las acciones que ocurren en la tabla Clientes, independientemente de si son eliminaciones, inserciones o actualizaciones, insertando el ID del cliente, la acción y la fecha.",
+      "Ninguno de los enunciados ANTERIORES es correcto."
+    ],
+    "Respuesta correcta": "El trigger registra las eliminaciones de clientes en la tabla Cliente_Log, insertando el ID del cliente eliminado, la acción y la fecha de la eliminación.",
+    "Imagen": "imagenes/triggerCliente.png"
+  },{
+    "Enunciado": "3) ¿Cuál es el resultado de la siguiente instrucción SQL para crear un trigger AFTER INSERT en la tabla Pedidos?",
+    "Respuestas Incorrectas": [
+      "El trigger evita que se inserten nuevos registros en la tabla Pedidos.",
+      "El trigger registra solo las actualizaciones realizadas en la tabla Pedidos, indicando el ID del pedido, la acción \"Nuevo Pedido\", y la fecha de la inserción.",
+      "El trigger actualiza la tabla Pedidos con nuevos registros a medida que se insertan, indicando el ID del pedido, la acción \"Nuevo Pedido, y la fecha de la inserción.",
+      "Ninguno de los enunciados ANTERIORES es correcto."
+    ],
+    "Respuesta correcta": "El trigger registra los nuevos pedidos insertados en la tabla Pedido_Log, indicando el ID del pedido, la acción \"Nuevo Pedido\", y la fecha de la inserción.",
+    "Imagen": "imagenes/pedidoTrigger.png"
+  },
+  {
+    "Enunciado": "1) Variables SQL - Caracteristicas:",
+    "Respuestas Incorrectas": [
+      "Solo se puede declarar varias variables en una misma sentencia.",
+      "Existen variables globales en SQL Server.",
+      "Una variable declarada existe dentro de todo el entorno de trabajo.",
+      "Una variable a la cual no se le ha asignado un valor contiene \"0\" (Cero).",
+      "Todas las respuestas ANTERIORES son correctas."
+    ],
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Procedimientos Almacenados:",
+    "Respuestas Incorrectas": [
+      "Es un grupo de sentencias T-SQL compiladas dentro de un plan de una query.",
+      "Son un método de encapsular tareas repetitivas que no involucran variables definidas por el motor de SQL para cálculos intermedios.",
+      "Son variables de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
+      "Son querys y variables que encapsulan código para su reutilización.",
+      "Todas las respuestas ANTERIORES son correctas."
+    ],
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Procedimientos Almacenados:",
+    "Respuestas Incorrectas": [
+      "Es un grupo de sentencias T-SQL compiladas dentro de un plan de ejecución.",
+      "Son un método de encapsular tareas repetitivas que involucran variables definidas por el usuario para cálculos intermedios.",
+      "Son sentencias de control de flujo de ejecución, para la implementación de bloques condicionales o repetitivos.",
+      "Son módulos o rutinas que encapsulan código para su reutilización.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Procedimientos Almacenados - Caracteristicas:",
+    "Respuestas Incorrectas": [
+      "Aceptan parámetros de entrada.",
+      "Devuelven un valor de retorno (escalar) que indica el éxito o falla de su ejecución.",
+      "Pueden llamar a otros SPs (o sea dentro de un SP de puede llamar a otros SP).",
+      "Pueden devolver valores en la forma de parámetros de salida.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Procedimientos Almacenados - Parametros:",
+    "Respuestas Incorrectas": [
+      "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
+      "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
+      "Todas las respuestas ANTERIORES son correctas."      
+    ],
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Tipos de funciones - Funciones Tabulares en Linea:",
+    "Respuestas Incorrectas": [
+      "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
+      "Se le pueden suministrar parametros a la funcion,",
+      "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
+      "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Se le pueden suministrar parametros a la funcion,",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Tipos de funciones - Funciones Tabulares en Linea:",
+    "Respuestas Incorrectas": [
+      "Devuelven un solo tipo de valor definido en la clausula \"Returns\".",
+      "Es similar a un procedimiento, salvo que puede referenciarse como si se tratara de una tabla.",
+      "Este tipo de funciones es sintacticamente similar a funciones del tipo COUNT(), MAX().",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Devuelve una tabla que es el resultado de de una unica sentencia SELECT.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) SQL Server admite los siguientes tipos de inicios de sesión:",
+    "Respuestas Incorrectas": [
+      "SQL Server usa Windows para autenticar cuentas de usuario de Active Directory para el servidor Windows que no esta en el dominio donde esta instalador el motor de Base de Datos.",
+      "SQL Server usa usuarios locales del servidor donde esta instalado el motor de Base de Datos, y conceder acceso a un grupo de Windows otorga acceso por medio de la base de datos master.",
+      "SQL Server admite usuarios de base de datos dependientes de la sincronizacion para la autenticación entre Windows y SQL Server.",
+      "Todas las respuestas ANTERIORES son correcta.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "SQL Server almacena el nombre de usuario y un hash de la contraseña en la base de datos master.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) SQL Server admite los siguientes tipos de inicios de sesión:",
+    "Respuestas Incorrectas": [
+      "SQL Server usa usuarios locales del servidor donde esta instalado el motor de Base de Datos, y conceder acceso a un grupo de Windows otorga acceso por medio de la base de datos master.",
+      "SQL Server: SQL Server almacena el nombre de usuario y un hash de la contraseña en la base de datos msdb.",
+      "SQL Server admite usuarios de base de datos dependientes de la sincronizacion para la autenticación entre Windows y SQL Server."
+    ],
+    "Respuesta correcta": "SQL Server usa Windows para autenticar cuentas de usuario de Windows del dominio donde esta instalador el motor de Base de Datos,",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Inicio de sesión sa:",
+    "Respuestas Incorrectas": [
+      "La cuenta sa se crea de forma predeterminada cuando se instala una base de datos.",
+      "El inicio de sesión, la cuenta sa es miembro del rol fijo de nivel de servidor sysdba.",
+      "Este inicio de sesión, la cuenta sa tiene todos los permisos en el servidor y puede limitarse.",
+      "Todas las respuestas ANTERIORES son correcta.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "El usuario sa no se puede quitar, pero puede deshabilitarse para que nadie lo emplee.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Rol público de base de datos y de servidor.",
+    "Respuestas Incorrectas": [
+      "Cada inicio de sesión pertenece al rol fijo de servidor public y cada usuario de base de datos pertenece al rol de base de datos master.",
+      "Cuando a un usuario o inicio de sesión se le han concedido permisos concretos para un elemento protegible, hereda los permisos para ese elemento concedidos a public.",
+      "El rol fijo de servidor public y el de base de datos public pueden quitarse.",
+      "Hay muchos de los permisos que se asignan a los roles public de forma predeterminada. La mayoría de estos permisos no son necesarios para realizar operaciones rutinarias en la base de datos; el tipo de tareas que los dba deben poder hacer.",
+      "Todas las respuestas ANTERIORES son correcta."
+    ],
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Elementos protegibles => Ámbito protegible: base de datos",
+    "Respuestas Incorrectas": [
+      "Grupo de disponibilidad, Punto de conexión, Iniciar sesión, Rol del servidor, Base de datos.",
+      "Ruta, Esquema, Iniciar sesión, Service, Clave simétrica",
+      "Catálogo de texto completo, Lista de palabras irrelevantes de texto completo, Tipo de mensaje, Enlace de servicio remoto, Base de datos.",
+      "Todas las respuestas ANTERIORES son correcta.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Rol de aplicación, Ensamblado, Clave asimétrica, Certificate, Contrato.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Jerarquia de cifrado => Conceptos:",
+    "Respuestas Incorrectas": [
+      "fuera de SQL Server.",
+      "Todas las respuestas ANTERIORES son correcta.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "La clave maestra de servicio y todas las claves maestras de base de datos son claves simétricas.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Triggers: Nivel de base de datos",
+    "Respuestas Incorrectas": [
+      "Responden a la necesidad de garantizar la integridad y disponibilidad de los datos dentro de nuestras tablas de usuario.",
+      "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada de acuerdo a los estándares de la instalacion por defecto.",
+      "Tienen dos alcances diferenciados, a nivel de Base de Datos y a nivel Instancia.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "No ayudan a mantener las reglas de diseño de nuestra base de datos.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Triggers: INSTEAD OF",
+    "Respuestas Incorrectas": [
+      "Pueden usarse como mecanismo para realizar operaciones no controladas en tablas.",
+      "La creacion inadecuada pueden causar daño a la base de datos y que la misma se comporte de manera inadecuadamente.",
+      "Se disparan en paralelo de la operación que los produce.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Una operación de borrado de registros con la instrucción delete sobre una tabla que tiene un TRIGGER de tipo INSTEAD OF, cuando detecta esta operación invoca al TRIGGER que es el responsable de actuar sobre los registros afectados.",
+    "Imagen": ""
+  },{
+    "Enunciado": "1) Triggers: Nivel de base de datos",
+    "Respuestas Incorrectas": [
+      "Responden a la necesidad de garantizar la integridad y disponibilidad de los datos dentro de nuestras tablas de usuario.",
+      "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada de acuerdo a los estándares de la instalacion por defecto.",
+      "No ayudan a mantener las reglas de diseño de nuestra base de datos.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Tienen dos alcances diferenciados, a nivel de Base de Datos y a nivel Instancia.",
+    "Imagen": ""
+  },{
+    "Enunciado": "1) Triggers: Nivel de base de datos",
+    "Respuestas Incorrectas": [
+      "Responden a la necesidad de garantizar la integridad y disponibilidad de los datos dentro de nuestras tablas de usuario.",
+      "Nos proporcionarán mecanismos para garantizar que nuestra base de datos está diseñada e implementada de acuerdo a los estándares de la instalacion por defecto.",
+      "A esta categoria de eventos pertenecen entre otors los de CREATE LOGIN o CREATE/ALTER/DROP DATABASE",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Tienen dos alcances diferenciados, a nivel de Base de Datos y a nivel Instancia.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Características ACID: => Durabilidad (Durability)",
+    "Respuestas Incorrectas": [
+      "Esta propiedad asegura que una transacción se ejecute de manera completa o no se ejecute en absoluto.",
+      "Garantiza que una transacción lleve a la base de datos de un estado válido a otro estado válido.",
+      "Asegura que las transacciones concurrentes se ejecuten de manera que no afecten entre sí.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Garantiza que los cambios realizados por la transacción se guardan de forma que no se perderán, garantizando la integridad de los datos.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "2) Transacciones Implícitas:",
+    "Respuestas Incorrectas": [
+      "Inicia manualmente una nueva transacción después de confirmar o revertir la transacción anterior.",
+      "Se deben realizar las acciones necesarias para delinear el inicio de una transacción.",
+      "Debe validar la totalidad de la ejecución para que confirmar o revertir cada transacción.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "Genera una cadena continua de transacciones.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "3) Transacciones Implicitas:",
+    "Respuestas Incorrectas": [
+      "Inicia manualmente una nueva transacción después de confirmar o revertir la transacción anterior.",
+      "Debe validar la totalidad de la ejecución para que confirmar o revertir cada transacción.",
+      "Genera una cadena fraccionada de transacciones.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "No tiene que realizar ninguna acción para delinear el inicio de una transacción.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Características de los cursores - instrucciones:",
+    "Respuestas Incorrectas": [
+      "OPEN => ejecuta la instrucción FETCH para posicionar el cursor en el primer registro del conjunto de resultados.",
+      "FETCH => elimina la fila actual del cursor y posiciona el cursor en la siguiente fila disponible.",
+      "DEALLOCATE => cierra automáticamente el cursor y permite seguir usándolo en la misma sesión.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+    ],
+    "Respuesta correcta": "DECLARE => define el comportamiento de desplazamiento y la consulta utilizada para generar el conjunto de atributos sobre el que opera el cursor.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) Características de los cursores - instrucciones:",
+    "Respuestas Incorrectas": [
+      "OPEN => llena el conjunto de atributos que deben ser analizados para el comportamiento de las sentencias",
+      "FETCH => devuelve el valor de un atributo de la tabla del conjunto de resultados.",
+      "Todas las respuestas ANTERIORES son correctas.",
+      "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
+      "DECLARE => define el comportamiento de desplazamiento y la consulta utilizada para generar el conjunto de atributos sobre el que opera el cursor"
+    ],
+    "Respuesta correcta":"DEALLOCATE => libera los recursos que utilizza el cursor.",
+    "Imagen": ""
+  },
+  {
+    "Enunciado": "1) ¿Qué sentencia es necesaria para abrir un cursor en SQL?",
+    "Respuestas Incorrectas": [
+      "ACTIVATE nombre_del_cursor",
+      "START nombre_del_cursor",
+      "EXECUTE nombre_del_cursor",
+      "Ninguno de los enunciados ANTERIORES es correcto"
+    ],
+    "Respuesta correcta": "OPEN nombre_del_cursor",
+    "Imagen": ""
   }
 ];
 
