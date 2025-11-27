@@ -89,9 +89,9 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Confeccionar un SP que permita insertar un nuevo dispositivo en la tabla dbo.Inventariodispositivos. Si ya existe un registro con el mismo Marca y Modelo, debe actualizar todos los campos (Memoria, Procesador y Marca). Si el Modelo ya está registrado pero la Marca es diferente, debe actualizar solo los valores de Memoria y Procesador sin generar ningún error.",
       "Confeccionar un SP que permita insertar un nuevo celular en la tabla dbo.Inventariocelulares. Si ya existe un registro con el mismo Modelo, se debe actualizar solo el campo Marca y dejar intactos los valores de Memoria y Procesador. Si se intenta insertar un nuevo registro con un Modelo y Marca duplicados, el procedimiento debe permitir la inserción sin lanzar ningún error.",
-      "Ninguno de los enunciados ANTERIORES es correcto. Codigo Incorrecto"
+      "Confeccionar un SP que permita insertar un nuevo celular en la tabla dbo.Inventariocelulares. Si ya existe un registro con el mismo Modelo pero con una Marca diferente, se debe permitir la inserción de un nuevo registro sin procesador, y si el valor ingresado es una Marca y Modelo diferente a los ya cargados se debe cargar el nuevo registro, y si los datos son duplicados se generar el error."
     ],
-    "Respuesta correcta": "Confeccionar un SP que permita insertar un nuevo celular en la tabla dbo.Inventariocelulares. Si ya existe un registro con el mismo Modelo pero con una Marca diferente, se debe permitir la inserción de un nuevo registro sin procesador, y si el valor ingresado es una Marca y Modelo diferente a los ya cargados se debe cargar el nuevo registro, y si los datos son duplicados se generar el error.",
+    "Respuesta correcta": "Ninguno de los enunciados ANTERIORES es correcto. Codigo Incorrecto.",
     "Imagen": "imagenes/1-DadoElSiguienteCodigoDeStoreProcedureDeSQLIndicarElEnunciadoCorrecto.png"
   },
   {
@@ -998,9 +998,9 @@ const json_preguntas = [
     "Respuestas Incorrectas": [
       "Cuando se definen parámetros de entrada y salida, estos siempre van finalizados por el signo @, con nombre del parámetro anteponiendose, y luego una designación del tipo de dato.",
       "Los parámetros de salida deben incluir la palabra clave PUTOUT para diferenciar de los de entrada.",
-      "Ninguna de TODAS las respuestas ANTERIORES es correcta."
+      "Todas las respuestas ANTERIORES son correctas."
     ],
-    "Respuesta correcta": "Todas las respuestas ANTERIORES son correctas.",
+    "Respuesta correcta": "Ninguna de TODAS las respuestas ANTERIORES es correcta.",
     "Imagen": ""
   },
   {
